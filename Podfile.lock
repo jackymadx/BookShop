@@ -1,0 +1,143 @@
+PODS:
+  - Alamofire (4.5.0)
+  - FeedKit (6.1.1)
+  - Firebase (4.0.3):
+    - Firebase/Core (= 4.0.3)
+  - Firebase/Auth (4.0.3):
+    - Firebase/Core
+    - FirebaseAuth (= 4.0.0)
+  - Firebase/Core (4.0.3):
+    - FirebaseAnalytics (= 4.0.2)
+    - FirebaseCore (= 4.0.3)
+  - Firebase/Database (4.0.3):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.0.0)
+  - Firebase/Messaging (4.0.3):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.0.0)
+  - Firebase/Storage (4.0.3):
+    - Firebase/Core
+    - FirebaseStorage (= 2.0.0)
+  - FirebaseAnalytics (4.0.2):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseAuth (4.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.3):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseDatabase (4.0.0):
+    - FirebaseAnalytics (~> 4.0)
+  - FirebaseInstanceID (2.0.0):
+    - FirebaseCore (~> 4.0)
+  - FirebaseMessaging (2.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseStorage (2.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - Font-Awesome-Swift (1.6.2)
+  - GoogleMaps (2.3.1):
+    - GoogleMaps/Maps (= 2.3.1)
+  - GoogleMaps/Base (2.3.1)
+  - GoogleMaps/Maps (2.3.1):
+    - GoogleMaps/Base
+  - GooglePlaces (2.3.1):
+    - GoogleMaps/Base (= 2.3.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/Logger (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+  - GTMSessionFetcher/Core (1.1.10)
+  - IJProgressView (0.1.0)
+  - MTBBarcodeScanner (5.0.1)
+  - Protobuf (3.3.0)
+  - SkyFloatingLabelTextField (3.2.0)
+  - SnapKit (3.2.0)
+  - Spring (1.0.3)
+  - Stripe (11.0.0)
+  - SwiftCarousel (0.8.0)
+  - SwiftyJSON (3.1.4)
+  - UPCarouselFlowLayout (1.1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - FeedKit
+  - Firebase
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Messaging
+  - Firebase/Storage
+  - Font-Awesome-Swift (~> 1.6.2)
+  - GoogleMaps
+  - GooglePlaces
+  - IJProgressView (from `https://github.com/Isuru-Nanayakkara/IJProgressView.git`)
+  - MTBBarcodeScanner
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SnapKit (~> 3.2.0)
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+  - Stripe
+  - SwiftCarousel
+  - SwiftyJSON
+  - UPCarouselFlowLayout
+
+EXTERNAL SOURCES:
+  IJProgressView:
+    :git: https://github.com/Isuru-Nanayakkara/IJProgressView.git
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  IJProgressView:
+    :commit: 2b189f93ce9c2ebc941e47c8fbbbc0dc93803008
+    :git: https://github.com/Isuru-Nanayakkara/IJProgressView.git
+  Spring:
+    :commit: 8201b5c93bd7ebdf4cd18160bcde1e6e88c2be64
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  FeedKit: b8037e48c6317c8a3c480285c55b5f7bf2b74f5e
+  Firebase: 9e33fdfbca37cab635c693883caa90a4475b842b
+  FirebaseAnalytics: ad41720e3e67fc63fbe3d2948d3e26932a8de311
+  FirebaseAuth: ebb6abcbabae00fc47446d690c19ce68d8484fde
+  FirebaseCore: c709067051de07bdaffdc4e735cd7299a23c463a
+  FirebaseDatabase: d829b3a8c3e2ac7a16773c5df226966b0805dfc2
+  FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
+  FirebaseMessaging: 227406c05b0dc9290702d2e9f18ab5528f0c2cf2
+  FirebaseStorage: 8110a1ed2034c8fbfd83890d2acc9cdbbd99afec
+  Font-Awesome-Swift: 4dc96df73b5f32aaccdee50a454c3ec253ee4977
+  GoogleMaps: c66a71058b9b1294bcdd5463a68e357fa50c079f
+  GooglePlaces: 4a7b22debfa1af65017b82943431822607e45201
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMSessionFetcher: 30d874b96d0d76028f61fbd122801e3f030d47db
+  IJProgressView: 24ba8bade65ca7d500fc5c74c8d48e5cf2f3f246
+  MTBBarcodeScanner: 66c75f40cbac5986c97634a0775bfe7f92243e7c
+  Protobuf: d582fecf68201eac3d79ed61369ef45734394b9c
+  SkyFloatingLabelTextField: 4e2d2f7160af660ed1da6bb9d0027b5c474b4b79
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  Stripe: 9861af8b1fc99421fdcc849f8c71dceaa9fd6ef9
+  SwiftCarousel: a62f4e9b944d1bca4ccfe3f28abb6119e3e36b12
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  UPCarouselFlowLayout: 02045c1505d63057fba3d9975be880a8d16bf17d
+
+PODFILE CHECKSUM: 19d3b52f64913769879474411c0d9248dad55084
+
+COCOAPODS: 1.2.1
